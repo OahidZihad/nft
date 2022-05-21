@@ -16,7 +16,7 @@ const Home = () => {
             keyExtractor={(item) => item.id}
             showsVerticalScrollIndicator={false}
             ListHeaderComponent={<HomeHeader></HomeHeader>}
-          ></FlatList>
+          />
 
           <View
             style={{
